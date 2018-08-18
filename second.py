@@ -39,4 +39,4 @@ for i in range(len(searches)):
 
 print ('Percentage of Users using Search in Design A :',(A_SearchUsers/a_users)*100,' and Percentage of Users using Search in Design B ',(B_SearchUsers/b_users)*100 )
 
-print ('Average No of times Search user from Design A search: ', A_SearchCount/A_SearchUsers , ' and Average No of Times Search user from Design B search: ', B_SearchCount/B_SearchUsers )
+print ('Average No of Search in Design A (who are using Search) : ', A_SearchCount/A_SearchUsers , ' and Average No of Search in Design B (who are using Search) : ', B_SearchCount/B_SearchUsers )
