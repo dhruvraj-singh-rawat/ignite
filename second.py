@@ -22,7 +22,7 @@ for i in range(len(searches)):
         a_users=a_users+1
         a_login=a_login+searches[i]['login_count']
 
-        if searches[i]['search_count'] :
+        if searches[i]['search_count'] : # Enters Loop Only if this user used the Search Funtionality
             A_SearchCount=A_SearchCount+searches[i]['search_count']
             A_SearchUsers=A_SearchUsers+1
 
@@ -33,7 +33,7 @@ for i in range(len(searches)):
         b_login=b_login+searches[i]['login_count']
         
 
-        if searches[i]['search_count'] :
+        if searches[i]['search_count'] : # Enters Loop Only if this user used the Search Funtionality
             B_SearchCount=B_SearchCount+searches[i]['search_count']
             B_SearchUsers=B_SearchUsers+1
 
